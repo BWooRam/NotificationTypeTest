@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.POST_PROMOTED_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NotificationTest"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NotificationTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExpandedNotificationActivity"
+            android:exported="false"
+            android:label="Expanded Notifications"
+            android:theme="@style/Theme.NotificationTest" />
+
+        <activity
+            android:name=".LiveUpdateActivity"
+            android:exported="false"
+            android:label="Live Updates"
+            android:theme="@style/Theme.NotificationTest" />
+
+        <activity
+            android:name=".BubbleNotificationActivity"
+            android:exported="false"
+            android:label="Bubble Notifications"
+            android:theme="@style/Theme.NotificationTest" />
+
+        <activity
+            android:name=".BubbleActivity"
+            android:exported="false"
+            android:label="Bubble"
+            android:allowEmbedded="true"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.NotificationTest" />
+
+        <activity
+            android:name=".CallStyleNotificationActivity"
+            android:exported="false"
+            android:label="CallStyle Notifications"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:theme="@style/Theme.NotificationTest" />
+
+        <receiver
+            android:name=".CallActionReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.trip.notificationtest.ACTION_ANSWER" />
+                <action android:name="com.trip.notificationtest.ACTION_DECLINE" />
+                <action android:name="com.trip.notificationtest.ACTION_HANG_UP" />
+                <action android:name="com.trip.notificationtest.ACTION_BLOCK" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.NotiService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="notification" />
+        </service>
+    </application>
+
+</manifest>

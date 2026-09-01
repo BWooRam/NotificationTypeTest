@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NotificationTest</string>
+    <string name="title.deadbolt.open.masterKey">%1$s</string>
+    <string name="body.deadbolt.open.masterKey">(ZH)마스터 비밀번호로 도어락을 열었습니다.\n%1$s</string>
+</resources>
