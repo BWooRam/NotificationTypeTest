@@ -31,6 +31,15 @@ class ExpandedNotificationActivity : ComponentActivity() {
                             .padding(innerPadding)
                     ) {
                         TextWithButton(
+                            "기본 알림 메시지 - 실행"
+                        ) {
+                            pushManager.sendNotification(
+                                title = "sendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotificationsendNotification",
+                                body = "bodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybodybody"
+                            )
+                        }
+
+                        TextWithButton(
                             "알림 그룹 메시지1 - 실행"
                         ) {
                             pushManager.sendGroupNotification(
