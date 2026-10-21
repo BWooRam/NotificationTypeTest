@@ -261,7 +261,7 @@ class PushNotificationManager(
             .setSmallIcon(R.drawable.ic_launcher_background)
             .setStyle(
                 NotificationCompat.MessagingStyle(Person.Builder().setName("Person").build())
-                    .setConversationTitle("ConversationTitle")
+                    .setConversationTitle("ConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitleConversationTitle")
                     .addMessage(message1)
                     .addMessage(message2)
             )

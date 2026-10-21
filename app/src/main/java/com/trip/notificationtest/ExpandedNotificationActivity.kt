@@ -43,8 +43,8 @@ class ExpandedNotificationActivity : ComponentActivity() {
                             "알림 그룹 메시지1 - 실행"
                         ) {
                             pushManager.sendGroupNotification(
-                                "sendGroupNotification test1",
-                                "sendGroupNotification test1"
+                                "sendGroupNotification test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1",
+                                "sendGroupNotification test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2test2"
                             )
                         }
 
@@ -63,8 +63,8 @@ class ExpandedNotificationActivity : ComponentActivity() {
                             "확장형 알림(Big Picture Icon O) - 실행"
                         ) {
                             pushManager.sendExpandedNotificationBigPicture1(
-                                "sendExpandedNotificationBigPicture1 test",
-                                "sendExpandedNotificationBigPicture1 test",
+                                "sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1",
+                                "sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2",
                                 true
                             )
                         }
@@ -73,8 +73,8 @@ class ExpandedNotificationActivity : ComponentActivity() {
                             "확장형 알림(Big Picture Icon X) - 실행"
                         ) {
                             pushManager.sendExpandedNotificationBigPicture1(
-                                "sendExpandedNotificationBigPicture1 test",
-                                "sendExpandedNotificationBigPicture1 test",
+                                "sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1sendExpandedNotificationBigPicture1",
+                                "sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2sendExpandedNotificationBigPicture2",
                                 false
                             )
                         }
@@ -83,9 +83,9 @@ class ExpandedNotificationActivity : ComponentActivity() {
                             "확장형 알림(Big Text) - 실행"
                         ) {
                             pushManager.sendExpandedNotificationBigText(
-                                "sendExpandedNotificationBigText test",
-                                "sendExpandedNotificationBigText test",
-                                "긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트"
+                                "titletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitle",
+                                "contentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontentcontent",
+                                "긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트긴 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트 텍스트"
                             )
                         }
 
@@ -114,14 +114,14 @@ class ExpandedNotificationActivity : ComponentActivity() {
                         ) {
                             pushManager.sendNotificationMessaging(
                                 NotificationCompat.MessagingStyle.Message(
-                                    "Message1Message1Message1Message1Message1Message1Message1",
+                                    "Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1Message1",
                                     System.currentTimeMillis(),
-                                    Person.Builder().setName("You").build()
+                                    Person.Builder().setName("YouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYouYou").build()
                                 ),
                                 NotificationCompat.MessagingStyle.Message(
-                                    "Message2Message2Message2Message2Message2Message2Message2",
+                                    "Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2Message2",
                                     System.currentTimeMillis(),
-                                    Person.Builder().setName("Me").build()
+                                    Person.Builder().setName("MeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMeMe").build()
                                 )
                             )
                         }
