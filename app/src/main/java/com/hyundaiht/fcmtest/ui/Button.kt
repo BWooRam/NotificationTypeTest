@@ -1,4 +1,4 @@
-package com.trip.notificationtest.ui
+package com.hyundaiht.fcmtest.ui
 
 import android.util.Log
 import androidx.compose.foundation.layout.fillMaxWidth

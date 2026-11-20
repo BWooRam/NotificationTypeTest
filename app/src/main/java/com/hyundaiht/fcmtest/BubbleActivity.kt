@@ -1,4 +1,4 @@
-package com.trip.notificationtest
+package com.hyundaiht.fcmtest
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -38,9 +38,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.trip.notificationtest.manager.PushNotificationManager
-import com.trip.notificationtest.manager.ChatMessage
-import com.trip.notificationtest.ui.theme.NotificationTestTheme
+import com.hyundaiht.fcmtest.manager.PushNotificationManager
+import com.hyundaiht.fcmtest.manager.ChatMessage
+import com.hyundaiht.fcmtest.ui.theme.NotificationTestTheme
 
 class BubbleActivity : ComponentActivity() {
 

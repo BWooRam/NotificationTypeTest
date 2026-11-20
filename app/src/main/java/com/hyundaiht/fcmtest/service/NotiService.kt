@@ -1,4 +1,4 @@
-package com.trip.notificationtest.service
+package com.hyundaiht.fcmtest.service
 
 import android.app.*
 import android.content.Intent
@@ -12,10 +12,10 @@ import android.content.pm.ServiceInfo
 import android.util.Log
 import android.widget.RemoteViews
 import androidx.annotation.RequiresApi
-import com.trip.notificationtest.MainActivity
-import com.trip.notificationtest.R
-import com.trip.notificationtest.service.Config.isSound
-import com.trip.notificationtest.service.Config.notificationID
+import com.hyundaiht.fcmtest.MainActivity
+import com.hyundaiht.fcmtest.R
+import com.hyundaiht.fcmtest.service.Config.isSound
+import com.hyundaiht.fcmtest.service.Config.notificationID
 
 
 class NotiService : Service() {

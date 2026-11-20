@@ -1,4 +1,4 @@
-package com.trip.notificationtest
+package com.hyundaiht.fcmtest
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,9 +10,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.trip.notificationtest.manager.PushNotificationManager
-import com.trip.notificationtest.ui.TextWithButton
-import com.trip.notificationtest.ui.theme.NotificationTestTheme
+import com.hyundaiht.fcmtest.manager.PushNotificationManager
+import com.hyundaiht.fcmtest.ui.TextWithButton
+import com.hyundaiht.fcmtest.ui.theme.NotificationTestTheme
 
 class CallStyleNotificationActivity : ComponentActivity() {
     private val pushManager by lazy { PushNotificationManager(this) }

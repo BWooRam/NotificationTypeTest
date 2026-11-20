@@ -1,4 +1,4 @@
-package com.trip.notificationtest.service
+package com.hyundaiht.fcmtest.service
 
 import android.app.*
 import android.content.Context
@@ -9,8 +9,8 @@ import android.os.Bundle
 import android.widget.RemoteViews
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import com.trip.notificationtest.MainActivity
-import com.trip.notificationtest.R
+import com.hyundaiht.fcmtest.MainActivity
+import com.hyundaiht.fcmtest.R
 
 object Config {
     var isSound = false

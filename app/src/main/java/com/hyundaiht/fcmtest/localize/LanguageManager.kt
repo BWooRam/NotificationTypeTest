@@ -1,4 +1,4 @@
-package com.trip.notificationtest.localize
+package com.hyundaiht.fcmtest.localize
 
 import java.util.Locale
 

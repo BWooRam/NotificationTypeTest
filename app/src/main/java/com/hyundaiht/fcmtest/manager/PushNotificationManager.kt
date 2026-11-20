@@ -1,4 +1,4 @@
-﻿package com.trip.notificationtest.manager
+﻿package com.hyundaiht.fcmtest.manager
 
 import android.Manifest
 import android.app.Notification
@@ -25,10 +25,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import com.trip.notificationtest.BubbleActivity
-import com.trip.notificationtest.CallActionReceiver
-import com.trip.notificationtest.CallStyleNotificationActivity
-import com.trip.notificationtest.R
+import com.hyundaiht.fcmtest.BubbleActivity
+import com.hyundaiht.fcmtest.CallActionReceiver
+import com.hyundaiht.fcmtest.CallStyleNotificationActivity
+import com.hyundaiht.fcmtest.R
 import java.io.InputStream
 import java.util.UUID
 import kotlin.random.Random
@@ -44,7 +44,7 @@ class PushNotificationManager(
     companion object {
         const val NOTI_CHANNEL_ID_DEFAULT = "HT-HOME-INTEGRATED-NOTI"
         const val NOTI_CHANNEL_NAME_DEFAULT = "HT-HOME-INTEGRATED-NOTI"
-        const val GROUP_KEY = "com.trip.notificationtest.Test"
+        const val GROUP_KEY = "com.hyundaiht.fcmtest.Test"
         const val LIVE_UPDATE_NOTIFICATION_ID = 5001
 
         val chatHistory = mutableMapOf<String, SnapshotStateList<ChatMessage>>()
@@ -576,7 +576,7 @@ class PushNotificationManager(
         val me = Person.Builder().setName("Me").build()
 
         val shortcut = ShortcutInfoCompat.Builder(context, shortcutId)
-            .setCategories(setOf("com.trip.notificationtest.category.BUBBLE"))
+            .setCategories(setOf("com.hyundaiht.fcmtest.category.BUBBLE"))
             .setIntent(Intent(Intent.ACTION_DEFAULT))
             .setLongLived(true)
             .setShortLabel(chatName)

@@ -1,4 +1,4 @@
-package com.trip.notificationtest
+package com.hyundaiht.fcmtest
 
 import org.junit.Test
 

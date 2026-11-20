@@ -1,4 +1,4 @@
-package com.trip.notificationtest
+package com.hyundaiht.fcmtest
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -17,7 +17,7 @@ class CallActionReceiver : BroadcastReceiver() {
             ACTION_ANSWER -> {
                 Log.d(TAG, "전화 수락")
                 // 수락 후 통화 중 알림으로 전환
-                val pushManager = com.trip.notificationtest.manager.PushNotificationManager(context)
+                val pushManager = com.hyundaiht.fcmtest.manager.PushNotificationManager(context)
                 pushManager.showOngoingCallNotification(
                     callerName = "통화 중",
                     notificationId = notificationId
@@ -46,9 +46,9 @@ class CallActionReceiver : BroadcastReceiver() {
 
     companion object {
         const val TAG = "CallActionReceiver"
-        const val ACTION_ANSWER = "com.trip.notificationtest.ACTION_ANSWER"
-        const val ACTION_DECLINE = "com.trip.notificationtest.ACTION_DECLINE"
-        const val ACTION_HANG_UP = "com.trip.notificationtest.ACTION_HANG_UP"
-        const val ACTION_BLOCK = "com.trip.notificationtest.ACTION_BLOCK"
+        const val ACTION_ANSWER = "com.hyundaiht.fcmtest.ACTION_ANSWER"
+        const val ACTION_DECLINE = "com.hyundaiht.fcmtest.ACTION_DECLINE"
+        const val ACTION_HANG_UP = "com.hyundaiht.fcmtest.ACTION_HANG_UP"
+        const val ACTION_BLOCK = "com.hyundaiht.fcmtest.ACTION_BLOCK"
     }
 }

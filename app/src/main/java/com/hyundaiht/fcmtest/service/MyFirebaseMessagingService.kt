@@ -1,4 +1,4 @@
-package com.trip.notificationtest.service
+package com.hyundaiht.fcmtest.service
 
 import android.content.Intent
 import android.media.AudioAttributes
@@ -12,10 +12,10 @@ import androidx.annotation.RawRes
 import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import com.trip.notificationtest.MainActivity
-import com.trip.notificationtest.R
-import com.trip.notificationtest.localize.LanguageManager
-import com.trip.notificationtest.manager.PushNotificationManager
+import com.hyundaiht.fcmtest.MainActivity
+import com.hyundaiht.fcmtest.R
+import com.hyundaiht.fcmtest.localize.LanguageManager
+import com.hyundaiht.fcmtest.manager.PushNotificationManager
 import kotlin.collections.get
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {

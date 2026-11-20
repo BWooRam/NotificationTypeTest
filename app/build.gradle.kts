@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.trip.notificationtest"
+    namespace = "com.hyundaiht.fcmtest"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.trip.notificationtest"
+        applicationId = "com.hyundaiht.fcmtest"
         minSdk = 28
         targetSdk = 36
         versionCode = 1

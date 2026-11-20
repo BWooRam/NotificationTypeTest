@@ -67,10 +67,10 @@
             android:name=".CallActionReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.trip.notificationtest.ACTION_ANSWER" />
-                <action android:name="com.trip.notificationtest.ACTION_DECLINE" />
-                <action android:name="com.trip.notificationtest.ACTION_HANG_UP" />
-                <action android:name="com.trip.notificationtest.ACTION_BLOCK" />
+                <action android:name="com.hyundaiht.fcmtest.ACTION_ANSWER" />
+                <action android:name="com.hyundaiht.fcmtest.ACTION_DECLINE" />
+                <action android:name="com.hyundaiht.fcmtest.ACTION_HANG_UP" />
+                <action android:name="com.hyundaiht.fcmtest.ACTION_BLOCK" />
             </intent-filter>
         </receiver>
 

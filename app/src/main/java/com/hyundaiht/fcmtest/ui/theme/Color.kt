@@ -1,4 +1,4 @@
-package com.trip.notificationtest.ui.theme
+package com.hyundaiht.fcmtest.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
